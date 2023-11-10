@@ -86,3 +86,24 @@ footer {
         margin: 0 auto; /* Center horizontally on tablets */
     }
 }
+
+@media (max-width: 768px) {
+    .hero {
+        margin: 0;
+        width: 100%;
+    }
+    .content-container {
+        margin: 0;
+        width: 100%; /* Set the width to 100% for mobile */
+        flex-direction: column; /* Set flex-direction to column for mobile */
+    }
+    .content,
+    .sidebar {
+        width: 100%; /* Full width for content and sidebar on mobile */
+        margin: 0; /* Remove margin on mobile */
+    }
+
+    .sidebar {
+        min-height: 200px;
+    }
+}
