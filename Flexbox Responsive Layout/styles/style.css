@@ -51,3 +51,38 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body, header,  .hero p, .content-container, footer {
+        margin: 0;
+        padding: 0;
+    }
+    header, footer {
+        height: 80px;
+        width: auto;  
+    }
+
+    header p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    footer p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .hero {
+        width: 100%; /* Full width for hero on tablets */
+    }
+
+    .content-container {
+        width: 100%; /* Full width for container on tablets */
+    }
+
+    .content,
+    .sidebar {
+        width: 80%; /* Adjusted width for content and sidebar on tablets */
+        margin: 0 auto; /* Center horizontally on tablets */
+    }
+}
