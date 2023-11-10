@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Simple Responsive Layout</title>
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/style.css">
-    </head>
-    <body>
-        <header>
-            <p>Header</p>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <title>Simple Responsive Layout</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <p>Header</p>
+    </header>
+    <div class="container">
         <main>
-            <section>
+            <section class="hero">
                 <p>Hero</p>
             </section>
-            <section>
-                <p>Content</p>
-            </section>
+            <div class="content-container">
+                <section class="content">
+                    <p>Content</p>
+                </section>
+                <aside class="sidebar">
+                    <p>Side Bar</p>
+                </aside>
+            </div>
         </main>
-        <aside>
-            <p>Side Bar</p>
-        </aside>
-        <footer>
-            <p>Footer</p>
-        </footer>
-    </body>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
 </html>
